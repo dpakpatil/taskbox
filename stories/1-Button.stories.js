@@ -8,7 +8,7 @@ export default {
   component: Button,
 };
 
-export const Text = () => <Button onClick={action('clicked')}>Hello Button</Button>;
+export const Text = () => <Button onClick={action('clicked')}>Hello Hello Button</Button>;
 export const Emoji = () => (
   <Button onClick={action('clicked')}>
     <span role="img" aria-label="so cool">
